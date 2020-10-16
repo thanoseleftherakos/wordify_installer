@@ -1,6 +1,6 @@
 {
   "name": "wordify_installer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node js package to download and setup wordpress and wordify theme",
   "main": "index.js",
   "directories": {
@@ -17,8 +17,7 @@
     "inquirer": "^7.3.3",
     "opn": "^6.0.0"
   },
-  "preferGlobal": true,
   "bin": {
-    "wordify": "index.js"
+    "wordify_installer": "bin/index.js"
   }
 }
