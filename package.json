@@ -1,6 +1,6 @@
 {
   "name": "wordify_installer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "node js package to download and setup wordpress and wordify theme",
   "main": "index.js",
   "repository": {
