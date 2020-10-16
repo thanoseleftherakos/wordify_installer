@@ -3,6 +3,10 @@
   "version": "1.0.2",
   "description": "node js package to download and setup wordpress and wordify theme",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thanoseleftherakos/wordify_installer"
+  },
   "directories": {
     "test": "test"
   },
