@@ -136,7 +136,7 @@ const downloadWordify = async () => {
 }
 const installWordify = async () => {
   return new Promise((resolve, reject) => {
-    exec('wp theme install wordify.zip', { cwd: wordpress_folder+'/wp-content/themes'}, (error, stdout, stderr) => { 
+    exec('wp theme install wordify.zip --activate', { cwd: wordpress_folder+'/wp-content/themes'}, (error, stdout, stderr) => { 
       resolve(stdout? stdout : stderr);
     });
   });
